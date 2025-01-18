@@ -73,7 +73,7 @@ def resp(url):
                 'dbname': 'postgres',
                 'user': 'postgres',
                 'password': 'Qazxswedc24.',
-                'host': 'localhost',
+                'host': 'db',
                 'port': '5432'
             }   
 
