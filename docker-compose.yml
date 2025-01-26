@@ -12,16 +12,16 @@ services:
     environment:
       DB_HOST: db
       DB_PORT: 5432
-      DB_USER: postgres
-      DB_PASSWORD: Qazxswedc20080906
+      DB_USER: 
+      DB_PASSWORD: 
   db:
     image: postgres:14
     ports:
       - '5432:5432'
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Qazxswedc20080906
-      POSTGRES_DB: postgres
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
+      POSTGRES_DB: 
     volumes:
       - db_data:/var/lib/postgresql/data
 volumes:
