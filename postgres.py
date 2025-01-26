@@ -70,11 +70,11 @@ def resp(url):
 
             # Database connection configuration
             db_config = {
-                'dbname': 'postgres',
-                'user': 'postgres',
-                'password': 'Qazxswedc24.',
-                'host': 'db',
-                'port': '5432'
+                'dbname': '',
+                'user': '',
+                'password': '',
+                'host': '',
+                'port': ''
             }   
 
             connection = None
@@ -134,3 +134,5 @@ def main():
 
 if __name__== '__main__':
     main()
+
+
